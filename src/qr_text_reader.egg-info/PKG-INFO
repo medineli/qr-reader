@@ -1,3 +1,17 @@
+Metadata-Version: 2.4
+Name: qr-text-reader
+Version: 0.1.0
+Summary: Small, offline, secure QR-to-raw-text-to-clipboard tool for Fedora GNOME/Wayland
+Author: QR Text Reader contributors
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyGObject>=3.46
+Requires-Dist: pyzbar>=0.1.9
+Requires-Dist: Pillow>=10.0
+Dynamic: license-file
+
 # QR Text Reader
 
 Küçük, hızlı, **tamamen offline** bir Linux masaüstü aracı. Ekranda gördüğünüz

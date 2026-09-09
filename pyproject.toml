@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qr-text-reader"
+version = "0.1.0"
+description = "Small, offline, secure QR-to-raw-text-to-clipboard tool for Fedora GNOME/Wayland"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "QR Text Reader contributors" }]
+dependencies = [
+    "PyGObject>=3.46",
+    "pyzbar>=0.1.9",
+    "Pillow>=10.0",
+]
+
+[project.scripts]
+qr-text-reader = "qr_text_reader.main:run"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,9 @@
+# PyGObject and GTK4 itself come from the system (dnf), not pip.
+# These are the pip-installable Python dependencies only.
+PyGObject>=3.46
+pyzbar>=0.1.9
+Pillow>=10.0
+
+# Dev / test
+pytest>=8.0
+qrcode>=7.4  # only used by tests, to generate QR fixtures locally

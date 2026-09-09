@@ -1,0 +1,2 @@
+[console_scripts]
+qr-text-reader = qr_text_reader.main:run

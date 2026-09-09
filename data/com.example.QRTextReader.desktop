@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=QR Text Reader
+Comment=Scan a QR code on screen and copy its raw text (and OTP secret/issuer)
+Exec=qr-text-reader
+Icon=com.example.QRTextReader
+Terminal=false
+Categories=Utility;
+StartupNotify=true
